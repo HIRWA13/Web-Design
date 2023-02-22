@@ -1,6 +1,6 @@
 # BASIC HTML
 
-## Basic Html stuffs to keep in mind
+## Basic Html stuffs
 
 #### SEMANTIN TAGS
 
@@ -11,7 +11,7 @@
         <figure>
         <figure>
 
-#### forms:
+#### FORM:
 
         <label>
         <inputs>
