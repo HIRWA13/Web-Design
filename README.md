@@ -67,17 +67,17 @@ body {
 width: 750px;
 font-family: Arial, Verdana, sans-serif;
 color: #665544;
-}
+}<br>
 p {
 width: 230px;
 float: left;
 margin: 5px;
 padding: 5px;
 background-color: #efefef;
-}
+}<br>
 .clear {
 clear: left;
 ets;
-}
+} <br>
 
 #### N.B: HTML & CSS are not programming languages
