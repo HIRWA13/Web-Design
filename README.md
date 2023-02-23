@@ -63,21 +63,21 @@ headings should be in a blue, italic, Times typeface.</P>
 
 ### example of a CSS code
 
-body {
-width: 750px;
-font-family: Arial, Verdana, sans-serif;
-color: #665544;
+body { <br>
+width: 750px; <br>
+font-family: Arial, Verdana, sans-serif; <br>
+color: #665544; <br>
 }<br>
-p {
-width: 230px;
-float: left;
-margin: 5px;
-padding: 5px;
-background-color: #efefef;
+p { <br>
+width: 230px; <br>
+float: left; <br>
+margin: 5px; <br>
+padding: 5px; <br>
+background-color: #efefef; <br>
 }<br>
-.clear {
-clear: left;
-ets;
+.clear { <br>
+clear: left; <br>
+ets; <br>
 } <br>
 
 #### N.B: HTML & CSS are not programming languages
