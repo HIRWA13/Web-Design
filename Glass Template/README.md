@@ -2,4 +2,4 @@
 
 ### an Awsome Glassy webpage design
 
-<img src="./images/Screenshot(48).ong" alt = "Sample Image" />
+<img src="./images/Screenshot(48).ong" alt = "Sample Image" >
