@@ -1,5 +1,5 @@
 # Glass Portfolio
 
-### an Awsome Glassy webpage design
+### an Awesome Glassy webpage design
 
-<img src="/images/Screenshot (48).png" alt = "Sample Image">
+<img src="/Web-Design/Glass Template/images/screenshot.png" alt="Sample image" title="Sample Image">
