@@ -11,7 +11,7 @@ has an extra forward slash in it.) Each HTML element tells the browser
 something about the information that sits between its opening and 
 closing tags</P>
 
-#### SEMANTIN TAGS
+#### SEMANTIC TAGS
 
         <Header>
         <main>
@@ -20,6 +20,8 @@ closing tags</P>
         <figure>
         <figure>
         <form>
+
+<p> Semantic Tags were Created to let the browser know which content is where on the webpage </p>
 
 #### FORM:
 
