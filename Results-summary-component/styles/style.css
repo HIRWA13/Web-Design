@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  @font-face {
+    font-family: "Hanken Grotesk", sans-serif;
+    src: url("../fonts/HankenGrotesk-VariableFont_wght.ttf");
+  }
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#main {
+  font-family: Arial, Helvetica, sans-serif;
+  background: hsl(0, 0%, 100%);
+  width: 60%;
+  margin: auto;
+  min-height: 80vh;
+  display: flex;
+  box-shadow: 6px 6px 20px rgba(122, 122, 122, 0.2);
+  border-radius: 2rem;
+}
+#main .results_left {
+  width: 45%;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 2rem;
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+#main .results_left .count {
+  height: 15rem;
+  width: 15rem;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  box-shadow: inset 3px 3px 10px rgba(71, 71, 71, 0.3);
+}
+#main .results_left h1 {
+  opacity: 0.8;
+  font-size: 2rem;
+}
+#main .results_left .count h2 {
+  font-size: 5rem;
+}
+#main .results_left .count p {
+  opacity: 0.5;
+}
+.div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.div h2 {
+  font-size: 2rem;
+  padding: 1rem;
+  font-weight: bold;
+}
+.div p {
+  width: 60%;
+  text-align: center;
+  opacity: 0.7;
+}
+
+.results_right {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.results_right h1 {
+  width: 100%;
+  padding: 1rem;
+  opacity: 0.8;
+}
+
+.cards h2 {
+  font-size: 15px;
+}
+.cards p {
+  font-size: 12px;
+}
+.cards {
+  width: 80%;
+}
+
+.card {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-top: 0.7rem;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 5px rgba(71, 71, 71, 0.3);
+}
+.card h2 {
+  width: 70%;
+  font-weight: 700;
+}
+.card .tot {
+  font-size: 14px;
+  font-weight: 600;
+}
+.card .per {
+  font-weight: bold;
+  opacity: 0.5;
+}
+button {
+  width: 80%;
+  height: 55px;
+  border: none;
+  outline: none;
+  background: hsl(224, 30%, 27%);
+  border-radius: 2rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+}
+#reaction {
+  background: hsla(0, 100%, 67%, 0.1);
+}
+#memory {
+  background: hsla(39, 100%, 56%, 0.1);
+}
+#verbal {
+  background: hsl(166, 100%, 37%, 0.1);
+}
+#visual {
+  background: hsl(234, 85%, 45%, 0.1);
+}
+
+#reaction h2 {
+  color: hsl(0, 100%, 67%);
+}
+#memory h2 {
+  color: hsl(39, 100%, 56%);
+}
+#verbal h2 {
+  color: hsl(166, 100%, 37%);
+}
+#visual h2 {
+  color: hsl(234, 85%, 45%);
+}
